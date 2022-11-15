@@ -10,8 +10,8 @@ app.get('/test',(req, res)=>{
 res.json("Sprawdzam czy dział")
 })
 
-console.log(process.env.AA_1)
+console.log(process.env.AA_AA)
 
 app.listen(API_PORT, () => {
-  console.log(process.env.DB_PWD);
+  console.log('aa',process.env.DB_PWD);
 });
